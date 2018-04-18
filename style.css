@@ -1,0 +1,213 @@
+.Background_img{
+	background-position: 50% 100%;
+	background-size: 1440px 1315px;
+	background-image: url(http://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+	height: 1000px;
+	position: relative;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: -1000;
+	margin-top: -470px;
+}
+.Background_img:after{
+	content: ".";
+	display: block;
+	clear: both;
+}
+.main_nav{
+	width: 76%;
+	margin:0 auto;
+	border: 1px solid #e1e1e1;
+	margin-top: 20px;
+	border-radius: 5px;
+
+}
+.Apple_logo{
+	background-position: 50% 0;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-image: url(http://web.archive.org/web/20140301005559im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
+}
+.main_nav li a{
+	 box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    height: inherit;
+    padding-top: 10px;
+}
+.main_nav li{
+    display: table-cell;
+    width: 10%;
+    text-align: center;
+    /*background-color: #888888;*/
+    height: 35px;
+    vertical-align: middle;
+        background:linear-gradient(
+      to bottom, 
+      #777,
+      #777 50%,
+      #666 50%,
+      #666
+    );
+    border-right: 2px solid #e1e1e1;
+
+}
+ul{
+	cursor: pointer;
+}
+.main_nav li:hover{
+	    /*vertical-align: middle;*/
+        background:linear-gradient(
+      to bottom, 
+      #4e4d4d,
+      #4e4d4d 50%,
+      #3e3b3b 50%,
+      #3e3b3b
+    );
+        opacity: 1;
+}
+.main_nav li a{
+	color: #ffffff;
+}
+.main_nav li:first-child{
+	 border-radius: 5px 0 0 5px;
+}
+.main_nav li:first-child a{
+	    padding-top: 2px;
+}
+.main_nav li:last-child{
+	 border-right: 0;
+	 border-radius: 0 5px 5px 0;
+	 width: 13%;
+}
+.Search_icon{
+	width: 15px;
+	height: 14px;
+	display: inline-block;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAAzklEQVQYlWNgAIP%2F9v%2FrwVCfARn85%2F%2B%2F%2Fz8CzEeS%2BnMQJPL0%2Ba37796DJfsZ4EYBwar9DBkMCQwFR86DJeXBUo%2F6QToYHCAKtaO%2Bf%2F%2F%2F%2F3kmmHNm%2Fv%2F%2FD27CTee4c%2Ff%2F%2F2vT4VKfXiM5CQg2t4M5lckQd%2F3nB0n8vQji5HhCFEpArP73AeGF35dACkEgYPtxmODXnxueg2igbqikh3l%2F1%2FpV%2B7vWyzUwxHatB%2BvcBLNfgMEA6AEDBg4g26Br%2FffvqeUMWIEBULcEdikGkG4AzGOfgUQC7TUAAAAASUVORK5CYII%3D);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+.input_text{
+	display: inline-block;
+	width: 82%;
+    border-radius: 6px;
+    background: none;
+}
+.Search_Box{
+	width: 90%;
+	border:1px inset;
+	height: 17px;
+    border-radius: 10px;
+    margin:0 auto;
+}
+.input_text{
+	border:0;
+}
+.input_text:focus{
+	outline: 0;
+	background-color: #ffffff;
+}
+.Search_Box:focus{
+	background-color: #ffffff;
+	outline: 0;
+}
+/*.Links:before{
+	content: ".";
+	display: block;
+	clear: left;
+	visibility: hidden;
+}*/
+.Links{
+	position: absolute;
+	top: 150px;
+	text-align:center; 
+	margin-left:20%;
+	margin-right:20%;
+}
+.Links a{
+	color: #ffffff;
+	box-sizing: border-box;
+}
+.para-1{
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 70px;
+}
+.para-2{
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+.para-3{
+	font-size: 20px;
+}
+.Images{
+	margin-top: 2px;
+}
+div[class*="image"]{
+	display: inline-block;
+	width: 24.92%;
+    margin-right: 1px;
+	float: left;
+}
+.helper-2{
+	display: block;
+	height: 0;
+	clear: both;
+}
+div img{
+	width: 100%;
+	height: 200px;
+	margin-right: 2px;
+}
+footer{
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.left_side{
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+.right_side li{
+	display: inline;
+	border-right: 1px solid #888888;
+	margin-right: 2px;
+	padding-right: 2px;
+}
+.right_side{
+	display: inline-block;
+	float: right;
+}
+footer{
+	margin-top:25px;
+	font-size: 13px;
+}
+.lower_footer{
+	clear: both;
+	 display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.lower_footer p{
+	display: inline;
+}
+.lower_footer li,.lower_footer ul{
+	display: inline;
+}
+.lower_footer li:first-child{
+	border-right: 1px solid #888888;
+	margin-right: 2px;
+	padding-right: 2px;
+}
+.upper_footer li:last-child{
+	border-right: 0;
+}
+.right_side img{
+	width: 16px;
+	height: 16px;
+	vertical-align: text-bottom;
+}
