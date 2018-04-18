@@ -164,13 +164,13 @@ div img{
 	margin-right: 2px;
 }
 footer{
-	margin-right: 10%;
+	margin-right: 8%;
 	margin-left: 10%;
 }
 .left_side{
 	display: inline-block;
 	float: left;
-	width: 50%;
+	width: 60%;
 }
 .right_side li{
 	display: inline;
